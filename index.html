@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faizey | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-
-</head>
-<body>
- 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="index.html" class="nav-item">Home</a>
-        <a href="#" class="nav-item">About</a>
-        <a href="#" class="nav-item">Projects</a>
-        <a href="#" class="nav-item">Connect</a>
+      <a href="index.html" class="nav-item">Home</a>
+      <a href="#" class="nav-item">About</a>
+      <a href="#" class="nav-item">Projects</a>
+      <a href="#" class="nav-item">Connect</a>
     </nav>
 
-    <div style="margin-top: 100px; padding: 20px; text-align: center;">
-        <h1>Scroll down to see the navbar stay fixed</h1>
-        <p>Page content goes here...</p>
-
     <div class="content">
-        <div class="intro">
-            <img class="memoji" src="/assets/memoji.PNG" alt="Faizey Memoji">
-            <h1 class="name">Faiz R. Rahimi</h1>
-            <p class="name-desc">I'm a Software Engineer focused on productivity.</p>
+      <div class="intro">
+        <img class="memoji" src="/assets/memoji.PNG" alt="Faizey Memoji" />
+        <h1 class="name">Faiz Rahim Rahimi</h1>
+        <p class="name-desc">
+          I'm a Software Engineer focused on productivity.
+        </p>
+      </div>
+
+      <div class="frame">
+        <div class="card" onclick="window.location.href='https://google.com/'">
+          <button class="arrow-btn">
+            <img class="arrow" src="assets/arrow.png" alt="" />
+          </button>
+          <h1>Project Name</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src="" alt="" />
         </div>
 
-        <div class="frame">
-            <div class="card1">
-                <h1>Project Name</h1>
-                <p>Project Description</p>
-                <img src="" alt="">
-            </div>
-
-            <div class="join-cards">
-                <div class="card2">
-                    <h1>Project Name</h1>
-                    <p>Project Description</p>
-                    <img src="" alt="">
-                </div>
-
-                <div class="card3">
-                    <h1>Project Name</h1>
-                    <p>Project Description</p>
-                    <img src="" alt="">
-            </div>
-        </div>
-
-        <div class="card4">
+        <div class="joint-cards" >
+          <div class="card card-half" onclick="">
+            <button class="arrow-btn">
+              <img class="arrow" src="assets/arrow.png" alt="" />
+            </button>
             <h1>Project Name</h1>
-            <p>Project Description</p>
-            <img src="" alt="">
-        </div>
-    </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="" alt="" />
+          </div>
 
-</body>
+          <div class="card card-half" onclick="">
+            <button class="arrow-btn">
+              <img class="arrow" src="assets/arrow.png" alt="" />
+            </button>
+            <h1>Project Name</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="" alt="" />
+          </div>
+        </div>
+
+        <div class="card" onclick="">
+          <button class="arrow-btn">
+            <img class="arrow" src="assets/arrow.png" alt="" />
+          </button>
+          <h1>Project Name</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src="" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
