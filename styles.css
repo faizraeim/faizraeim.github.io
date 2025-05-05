@@ -139,14 +139,14 @@ body {
   color: #757575;
 }
 
-.joint-cards{
+.joint-cards {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   gap: 24px;
 }
-.card-half{
+.card-half {
   width: 479px;
 }
 
@@ -175,14 +175,13 @@ body {
   z-index: 2;
 }
 
-.codeguy{
+.codeguy {
   width: 95px;
   height: auto;
   margin-bottom: 10px;
-
 }
 
-.frame h5{
+.frame h5 {
   font-weight: 400;
   line-height: 32px;
   font-size: 14px;
@@ -190,16 +189,15 @@ body {
   text-transform: uppercase;
 }
 
-
-.about-frame{
+.about-frame {
   max-width: 982px;
-height: auto;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.half-cards{
+.half-cards {
   max-width: 982px;
   height: 248px;
   display: flex;
@@ -208,74 +206,70 @@ height: auto;
   margin-bottom: 24px;
 }
 
-.about-card-half{
+.about-card-half {
   height: 248px;
   width: 311px;
 }
 
-.full-cards{
+.full-cards {
   max-width: 982px;
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 
-.about-card-full{
+.about-card-full {
   height: 168px;
   width: 479px;
 }
 
-
-.img-card1{
+.img-card1 {
   background: url(https://scontent.fevn6-6.fna.fbcdn.net/v/t51.75761-15/490551244_18501992911038534_4759057439567377321_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kdJI91kzK9MQ7kNvwHklJm0&_nc_oc=AdmdtpThv4thH8efN-UTCD34uEPSlHvG1Vwbz6WoisjGtf-R-wLgQnBTjz2QDLBmMg0&_nc_zt=23&_nc_ht=scontent.fevn6-6.fna&_nc_gid=wgAD4i5N4eW7JTX0USl2hg&oh=00_AfF7dAwepZaGgwi3USXPcfz0tzDEUM60UUfMjKo8AeTWvw&oe=681D853E);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
 }
 
-.img-card2{
+.img-card2 {
   background: url(https://scontent.fevn6-6.fna.fbcdn.net/v/t1.6435-9/118148389_2262330593913261_3241953760319474232_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=umUlbARRxPcQ7kNvwEK-BgU&_nc_oc=AdnbL8q7js5oegopdXflaOp0RFSdXN_0Ku4Ha5Blw4cEIEu90-HpDBqh-7jNL1VlmH8&_nc_zt=23&_nc_ht=scontent.fevn6-6.fna&_nc_gid=UT649o2kQka_NgfRRumnqA&oh=00_AfEPfa8f6kFyUEoOAMU0zBVHWMbcAI0lsumwEI5vlV0eKw&oe=683F0398);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.img-card3{
+.img-card3 {
   background: url(https://scontent.fevn6-5.fna.fbcdn.net/v/t39.30808-6/492501680_3966694026810234_7412262120591987467_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ArLGwPc1_gQQ7kNvwFacJJm&_nc_oc=AdmhH5B-iqmQ2KVNrHWfZ7yv37AANvWYw-dRXJ-xNztj3KAGARKCaaUJPVK_C2ub2T4&_nc_zt=23&_nc_ht=scontent.fevn6-5.fna&_nc_gid=X1n3i1h-sMdYh87CurGbMg&oh=00_AfFrHFwfrpxHyeq3aOpadaxlEM0Bwgf7CH5JJxVK8N4DpA&oe=681D87DE);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.connect-card{
+.connect-card {
   width: 479px;
   height: 397px;
 }
 
-.email-container{
-
-
-display: flex;
-justify-content: center;
-align-items: center;
-
+.email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.email-img{
+.email-img {
   width: 353px;
-height: 353px;
-filter: drop-shadow(0px 20.1875px 20.1875px rgba(0, 0, 0, 0.25));
+  height: 353px;
+  filter: drop-shadow(0px 20.1875px 20.1875px rgba(0, 0, 0, 0.25));
 }
 
-.whatsapp-container{
+.whatsapp-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-margin-top: 38px;
+  margin-top: 38px;
 }
 
-.wa-img{
+.wa-img {
   width: 184px;
   height: 184px;
   flex: none;
@@ -284,7 +278,7 @@ margin-top: 38px;
   filter: drop-shadow(0px 20.1875px 20.1875px rgba(0, 0, 0, 0.25));
 }
 
-.linkedin-container{
+.linkedin-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -292,7 +286,7 @@ margin-top: 38px;
   margin-top: 23px;
 }
 
-.linkedin-img{
+.linkedin-img {
   width: 194px;
   height: 194px;
   flex: none;
@@ -300,3 +294,78 @@ margin-top: 38px;
   flex-grow: 0;
   filter: drop-shadow(0px 20.1875px 20.1875px rgba(0, 0, 0, 0.25));
 }
+
+.connect-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.connect-card:hover .arrow-btn {
+  background: #f5f5f5;
+  border: 2px solid #e6e6e6;
+}
+
+/* and (max-width: 768px) */
+
+@media screen and (max-width: 430px) {
+  .navbar {
+    width: 90%;
+    left: 0;
+    transform: translateX(+5%);
+    padding: 0;
+
+  }
+
+  .nav-item {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .title-desc {
+  
+    text-align: center;
+    font-size: 20px;
+  }
+  .card {
+    width: 90%;
+    padding: 16px;
+  }
+  .joint-cards {
+    flex-direction: column;
+    gap: 0;
+    width: 95%;
+  }
+
+  .card h1,
+  p {
+    padding-right: 56px;
+    gap: 10px;
+    margin: 20px 20px;
+  }
+
+  .about-frame{
+    margin: 0;
+ 
+  }
+.half-cards{
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 0;
+}
+
+.full-cards{
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: 0;
+ 
+}
+  
+
+}
+
+
